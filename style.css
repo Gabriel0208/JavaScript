@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    color: rgb(212, 133, 30);
+}
+table {
+    border-collapse: collapse; /* para remover a borda entre as células da tabela */
+    width: 100%; /* para que a tabela ocupe toda a largura do seu contêiner */
+  }
+  
+  th {
+    background-color: #ccc; /* cor de fundo do cabeçalho */
+    color: rgb(50, 20, 184); /* cor do texto */
+    font-weight: bold; /* espessura da fonte */
+    padding: 10px; /* espaçamento interno das células */
+    border: 1px solid #000; /* borda da célula */
+  }
+  
+  td {
+    padding: 10px; /* espaçamento interno das células */
+    border: 1px solid rgb(15, 1, 1); /* borda da célula */
+  }
+  
+  /* estiliza as células da primeira coluna com uma largura fixa */
+  td:first-child {
+    width: 100px;
+  }
+  button{
+    margin-top: 20px;
+    justify-content: center;
+    background-color: rgb(77, 100, 100);
+    color: aliceblues;
+  }
+  
